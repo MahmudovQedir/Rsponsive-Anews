@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #008bcc;
+
+
+}
+
+header .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1100px;
+    margin: 0 auto;
+
+
+}
+
+header .headleft img {
+    height: 50px;
+}
+
+header .headerContainer .headright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+header .headerContainer .headright nav {
+    display: flex;
+    gap: 10px;
+}
+
+header .headerContainer .headright nav i {
+    color: azure;
+    font-size: 20px;
+    display: none;
+}
+
+header .headerContainer .headright nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: azure;
+
+}
+
+header .headerContainer .headright .contalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: azure;
+
+}
+
+header .headerContainer .headright .contalogo .lang {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 5px;
+}
+
+header .headerContainer .headright .contalogo .logo {
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#secEnd {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 40px 0;
+
+}
+
+
+.contaEnd {
+    width: 1100px;
+    margin: 0 auto;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contaEnd .end {
+    border-right: 2px solid;
+    padding-right: 70px;
+}
+
+.boxIcon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Responsive Design Start */
+@media only screen and (max-width:1100px) {
+    header .headerContainer .headright nav ul {
+        display: none;
+
+    }
+
+    header .headerContainer .headright nav i {
+        display: block;
+    }
+
+    header .headerContainer {
+        width: 100%;
+
+    }
+
+
+}
+
+
+
+
+
+main section {
+    width: 1100px;
+    margin: 0 auto;
+
+    margin-top: 25px;
+}
+
+main section .sectionHead {
+    background-color: #f1f1f1;
+    display: flex;
+
+}
+
+main section .sectionHead div {
+    background-color: #008bcc;
+    color: azure;
+
+}
+
+main section .sectionHead .secHeadLine {
+    background-color: #008bcc;
+    width: 25px;
+    height: 100%;
+
+}
+
+main #allbox .box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+main #allbox .box .centeBox {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    background-color: #f1f1f1;
+}
+
+#allbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+main #allbox .box .imgbox {
+    overflow: hidden;
+    height: 200px;
+
+
+
+
+
+}
+
+.imgbox:hover img {
+    transform: scale(1.2);
+
+
+}
+
+main #allbox .box .boxtitle {
+    height: 80px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main #allbox .box .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s all;
+}
+
+
+
+.footerwidjet {
+    color: aqua;
+}
+
+
+footer {
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footright {
+    display: flex;
+    gap: 20px;
+}
+
+.contafooter {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.centebox {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 200px;
+
+}
+
+.boxtitle {
+    padding-bottom: 10px;
+
+}
+
+/* .newImg{
+    height: 50px;
+    width: 50px;
+}
+.newImg img{
+    height: 100%;
+    width: 100%;
+} */
+/* .boxNews{
+    display: flex;
+} */
+/*  */
+
+
+
+
+
+main section {
+    width: 1100px;
+    margin: 0 auto;
+
+    margin-top: 25px;
+}
+
+main section .sectionhead {
+    background-color: #f1f1f1;
+    display: flex;
+
+}
+
+main section .sectionhead div {
+    background-color: #008bcc;
+    color: azure;
+
+}
+
+main section .sectionhead .secheadline {
+    background-color: #008bcc;
+    width: 25px;
+    height: 100%;
+
+}
+
+
+.imgboX img {
+    /* height: 500px;
+    width: 610px; */
+}
+
+
+
+
+.centebox {
+    display: flex;
+    gap: 450px;
+}
+
+
+.orta {
+    display: flex;
+}
+
+.sectionhead {
+    width: 200px;
+}
+
+.boxtitle {
+    padding-left: 250px;
+}
+
+
+
+
+
+
+
+main section .sectionHeadx {
+    background-color: #f1f1f1;
+    display: flex;
+
+}
+
+main section .sectionHeadx div {
+    background-color: #008bcc;
+    color: azure;
+
+}
+
+main section .sectionHeadx .secHeadLine {
+    background-color: #008bcc;
+    width: 25px;
+    height: 100%;
+
+}
+
+
+
+#headSec {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.secLefy {
+    width: 20vw;
+    border: 1px solid rgb(224, 223, 223);
+}
+
+.secRighy {
+    width: 60vw;
+    border: 1px solid rgb(230, 227, 227);
+}
+
+.newImg {
+    height: 50px;
+    width: 50px;
+}
+
+.newImg .img {
+    width: 100%;
+    height: 100%;
+}
+
+.boxNews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+    padding: 5px;
+
+}
+
+.text {
+    padding-left: 55px;
+}
+
+.rightImgBox {
+    width: 100%;
+    height: 500px;
+}
+
+.rightImgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#secEnd{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* .container{
+    box-sizing: border-box;
+} */
+
+/* main section {
+    width: 1100px;
+    margin: 0 auto ;
+   
+    margin-top: 25px;
+    } */
+/* main #allbox .box .centeBox{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    background-color: #f1f1f1;
+} */
+
+/* main #allbox .box .imgbox{
+    
+
+}
+main #allbox .box .boxtitle{
+    height: 80px; */
+/*  padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main #allbox .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+
+
+
+
+
+
+ 
+
+
+/* .qedir .box3 {
+    padding-top: 60px;
+    padding-left: 4px;
+    flex-wrap: wra */
+
+
+
+
+
+@media only screen and (max-width:1100px) {
+    .boxEnd img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .boxEnd{
+        width: 150px;
+    }
+    .contaEnd .end {
+        border-right: 2px solid;
+        padding-right: 13px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+    }
+    .contaEnd {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    main section {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secRighy{
+        width: 80vw;
+
+    }
+    .secLefy{
+        width: 80vw;
+    }
+   
+
+    
+        
+    
+
+   
+
+}
+
+
+@media only screen and (max-width:500px) {
+    main #allbox .box {
+        width: 100%;
+
+    }
+  
+    .contaEnd{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    } 
+    
+}
+
+@media only screen and (max-width:420px) {
+    .rightImgBox {
+        width: 100%;
+        height: 185px;
+    }
+    .contaEnd {
+        gap: 10px;
+    }
+    .endLast{
+        border-right: 0;
+        padding-right: 0;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 2px solid gray;
+        padding-bottom: 10px;
+    }
+    .contaEnd .end {
+        border-right: 0;
+        padding-right: 0;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 2px solid gray;
+        padding-bottom: 10px;
+    }
+    .secRighy{
+        width: 100%;
+        
+
+    }
+    .secLefy{
+        width: 100%;
+    }
+   
+    /* .contaEnd{
+        width: 100%;
+    } */
+
+
+    #secEnd{
+        width: 100%;
+    }
+    
+}
